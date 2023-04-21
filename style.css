@@ -3,3 +3,81 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.font-white {
+    color: #ffffff;
+}
+.heading-lg {
+    font-size: 50px;
+    line-height: 40px;
+}
+.mr-ss {
+    margin-right: 10px;
+}
+.mr-s {
+    margin-right: 20px;
+}
+.mr-sm {
+    margin-right: 30px;
+}
+.mr-m {
+    margin-right: 40px;
+}
+.mb-ss {
+    margin-bottom: 10px;
+}
+.mb-s {
+    margin-bottom: 20px;
+}
+.mb-sm {
+    margin-bottom: 30px;
+}
+.mb-m {
+    margin-bottom: 40px;
+}
+.primary-btn {
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: #21B2A7;
+    cursor: pointer;
+}
+.primary-btn:hover {
+    color: #21B2A7;
+    background-color:white ;
+}
+.section-intro {
+    background:linear-gradient(rgba(71,65,125, 0.8),rgba(71,65,125, 0.8)),url('./images/section-intro-bg.jpg');
+    padding: 100px 0;
+}
+.section-intro__video {
+    height: 220px;
+    width: 400px;
+}
+.section-intro__right-div {
+    max-width: 420px;
+}
+.section-who {
+    padding: 100px 0;
+}
+.section-who__mid-div {
+    max-width: 420px;
+}
