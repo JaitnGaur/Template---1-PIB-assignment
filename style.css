@@ -20,15 +20,41 @@
 .align-center {
     align-items: center;
 }
+.justify-center {
+    justify-content: center;
+}
 .flex-wrap {
     flex-wrap: wrap;
 }
 .font-white {
     color: #ffffff;
 }
+.fw-b {
+    font-weight: 700;
+}
+.fw-m {
+    font-weight: 600;
+}
+.fw-l {
+    font-weight: 400;
+}
+.text-center {
+    text-align: center;
+}
 .heading-lg {
     font-size: 50px;
     line-height: 40px;
+}
+.text-m {
+    font-size: 20px;
+    line-height: 25px;
+}
+.text-m-l {
+    font-size: 20px;
+    line-height: 35px;
+}
+.margin-auto {
+    margin: 0 auto;
 }
 .mr-ss {
     margin-right: 10px;
@@ -54,6 +80,24 @@
 .mb-m {
     margin-bottom: 40px;
 }
+.ml-a {
+    margin-left: auto;
+}
+.mr-a {
+    margin-right: auto;
+}
+.p-m {
+    padding: 20px;
+}
+.p-lg {
+    padding: 40px;
+}
+.rg-s {
+    row-gap: 20px;
+}
+.rg-m {
+    row-gap: 40px;
+}
 .primary-btn {
     border-radius: 15px;
     padding: 10px 30px;
@@ -64,6 +108,7 @@
     color: #21B2A7;
     background-color:white ;
 }
+/*--------intro section---------*/
 .section-intro {
     background:linear-gradient(rgba(71,65,125, 0.8),rgba(71,65,125, 0.8)),url('./images/section-intro-bg.jpg');
     padding: 100px 0;
@@ -71,6 +116,7 @@
 .section-intro__video {
     height: 220px;
     width: 400px;
+    margin: 0 auto;
 }
 .section-intro__right-div {
     max-width: 420px;
@@ -80,4 +126,50 @@
 }
 .section-who__mid-div {
     max-width: 420px;
+}
+.section-team {
+    background-color: #E3E4E8;
+    padding: 100px 0;
+}
+.section-team__profiles {
+    column-gap: 65px;
+}
+.section-team__profile-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.section-team__profile-cont {
+    max-width: 330px;
+    background-color: #ffffff;
+    padding: 40px;
+
+}
+.section-aboutus {
+    padding: 100px 0;
+}
+
+.section-aboutus__conts {
+    max-width: 560px;
+    background-color: #F5F5F5;
+}
+.section-aboutus__img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:425px) {
+    .section-intro  {
+        padding: 50px 0;
+    }
+    .section-who {
+        padding: 50px 0;
+    }
+    .section-team {
+        padding: 50px 0;
+    }
+    .primary-btn {
+        padding: 8px 12px;
+    }
 }
